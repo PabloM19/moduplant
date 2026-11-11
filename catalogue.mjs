@@ -368,6 +368,19 @@ export function createCatalogue({source, changes = {}, saveChange, mode, hosted 
     hero.after(glance);
     $('.plant-faq-heading .eyebrow, .live-extras > .eyebrow, .live-sources > .eyebrow').remove();
     $('.plant-faq-number').remove();
+
+    const sources = $('.live-sources');
+    if (sources.length) {
+      const summary = $('<summary>').append(
+        sources.children('h2'),
+        sources.find('.disclosure-chevron').first().clone(),
+      );
+      const disclosure = $('<details>').attr({
+        class: 'wrap live-sources mp-sources-disclosure',
+        id: sources.attr('id'),
+      }).append(summary, sources.children('.source-list'));
+      sources.replaceWith(disclosure);
+    }
   }
 
   function dataField(key) { return `[data-edit-field="${key}"]`; }

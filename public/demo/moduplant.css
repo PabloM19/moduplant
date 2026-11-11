@@ -414,3 +414,31 @@
   background: var(--mp-caution);
   font-size: .9rem;
 }
+
+.directory-body .live-sources.mp-sources-disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 44px;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+.mp-sources-disclosure > summary::-webkit-details-marker { display: none; }
+.directory-body .mp-sources-disclosure > summary::after { content: none; }
+.directory-body .mp-sources-disclosure > summary h2 { margin: 0; }
+.mp-sources-disclosure > summary .disclosure-chevron { flex: none; }
+.mp-sources-disclosure[open] > summary { margin-bottom: 1.25rem; }
+.directory-body .live-sources .source-list { gap: 1.25rem; margin: 0; }
+.directory-body .live-sources .source-entry {
+  padding: clamp(1.1rem, 2.2vw, 1.6rem);
+  overflow-wrap: anywhere;
+}
+.directory-body .live-sources .source-entry h3 { margin: 0 0 .75rem; }
+.directory-body .live-sources .source-context { margin-top: 1rem; }
+@media (max-width: 760px) {
+  .directory-body .live-sources .source-list { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .directory-body .mp-sources-disclosure > summary h2 { font-size: 1.75rem; }
+}
+.mp-sources-disclosure[open] > summary .disclosure-chevron svg { transform: rotate(180deg); }

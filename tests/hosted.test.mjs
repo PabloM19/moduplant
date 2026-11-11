@@ -35,6 +35,10 @@ test('static deployment renders the catalogue and every direct plant URL', () =>
     assert.equal(page('h1').text(), plant.common_name);
     assert.equal(page('[data-gallery]').length, 3);
     assert.equal(page('.plant-faq').length, 4);
+    assert.equal(page('details#fuentes').length, 1);
+    assert.equal(page('details#fuentes[open]').length, 0);
+    assert.ok(page('details#fuentes > summary h2').text().includes('Fuentes'));
+    assert.ok(page('details#fuentes .source-entry').length > 0);
   }
 });
 
