@@ -23,8 +23,10 @@ La selección atlántica reúne Camelia y Hortensia con consejos iniciales de cu
 
 **Guardar cambios** actualiza la ficha, la tarjeta y el buscador en la demo. **Ver como visitante** muestra el resultado sin los controles de edición. **Restaurar ficha original** recupera los datos y fotos de la copia inicial.
 
-El modo administrador simula el rol de WordPress. Las personalizaciones se guardan en `.local/edits.json` en este equipo. Los favoritos se guardan en el navegador. La demo funciona en el servidor local y no requiere acceso a WordPress ni a la API de producción en tiempo de ejecución.
+El modo administrador simula el rol de WordPress. Con `npm run dev`, las personalizaciones se guardan en `.local/edits.json` en este equipo. En Vercel, cada navegador conserva sus personalizaciones y fotos en IndexedDB. Los favoritos se guardan en el navegador.
 
 La copia de las fichas y las tarjetas está en `directory/`. Los recursos públicos están en `public/directory/`. El prototipo previo de React se conserva en `src/` y sus pruebas en `tests/`.
 
-`npm run build` prepara los archivos estáticos. Para comprobar la demo compilada, detén el servidor de desarrollo y usa `npm run preview` desde este directorio. La edición y el catálogo necesitan el servidor incluido en el proyecto.
+`npm run build` exporta la portada y las 100 fichas completas a `dist/`, junto con los recursos y un service worker que resuelve búsqueda, filtros y edición en el navegador. `vercel.json` configura el despliegue desde `main` usando ese comando y esa carpeta. Las URLs de las fichas pueden abrirse directamente.
+
+`npm run test:hosted` verifica la exportación de todas las fichas y la persistencia de textos, fotos, bloques y modo de edición después de reiniciar el worker.
