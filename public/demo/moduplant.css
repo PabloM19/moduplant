@@ -406,3 +406,11 @@
   .live-information { grid-template-columns: minmax(0, 1fr); }
   .live-section-nav { gap: .35rem; }
 }
+#moduplant-startup-status, #moduplant-mode-error {
+  padding: .7rem 1rem;
+  border: 1px solid #e2cfc4;
+  border-radius: 8px;
+  color: #5e483e;
+  background: var(--mp-caution);
+  font-size: .9rem;
+}

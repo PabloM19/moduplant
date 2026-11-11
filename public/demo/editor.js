@@ -23,9 +23,13 @@ mode.addEventListener('click', async () => {
     url.searchParams.delete('editar');
     if (url.search === location.search) location.reload();
     else location.replace(url.href);
-  } catch {
+  } catch (error) {
     mode.disabled = false;
-    mode.textContent = 'Reintentar cambio de vista';
+    mode.textContent = 'Modo administrador';
+    const notice = document.querySelector('#moduplant-mode-error') || element('p', {id: 'moduplant-mode-error'});
+    notice.setAttribute('role', 'alert');
+    notice.textContent = error.message || 'No se pudo cambiar de vista. Recarga la página.';
+    toolbar.after(notice);
   }
 });
 

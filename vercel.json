@@ -7,7 +7,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/moduplant-worker.js",
+      "source": "/moduplant-app.js",
       "headers": [
         {"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}
       ]

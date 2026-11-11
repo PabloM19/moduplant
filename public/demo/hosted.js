@@ -1,30 +1,25 @@
-(() => {
-  const serviceWorker = navigator.serviceWorker;
-  if (!serviceWorker) return;
-  const initialController = serviceWorker.controller;
-  const ready = serviceWorker.register('/moduplant-worker.js', {type: 'module', updateViaCache: 'none'})
-    .then(registration => {
-      if (serviceWorker.controller) return;
-      return new Promise((resolve, reject) => {
-        const timer = setTimeout(() => {
-          serviceWorker.removeEventListener('controllerchange', activate);
-          reject(new Error('El catálogo está tardando en cargar. Recarga y vuelve a intentarlo.'));
-        }, 10000);
-        function activate() {
-          clearTimeout(timer);
-          resolve();
-        }
-        serviceWorker.addEventListener('controllerchange', activate, {once: true});
-        if (registration.active && serviceWorker.controller) activate();
-      });
-    });
-  ready.then(() => { if (!initialController) location.reload(); }).catch(() => {});
-  const nativeFetch = window.fetch.bind(window);
-  window.fetch = async (input, init) => {
-    const url = new URL(input instanceof Request ? input.url : input, location.href);
-    if (url.origin === location.origin && ['/favoritos', '/sugerencias', '/demo/modo', '/demo/enlace'].includes(url.pathname) && !serviceWorker.controller) {
-      await ready;
+(async () => {
+  try {
+    if (navigator.serviceWorker) {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      const previous = registrations.filter(registration => [registration.active, registration.waiting, registration.installing]
+        .some(worker => worker && new URL(worker.scriptURL).pathname === '/moduplant-worker.js'));
+      await Promise.all(previous.map(registration => registration.unregister()));
+      if (previous.length && navigator.serviceWorker.controller) {
+        location.reload();
+        return;
+      }
     }
-    return nativeFetch(input, init);
-  };
+  } catch {
+    // La edición se prepara directamente aunque el navegador desactive los workers.
+  }
+  try {
+    await import('/moduplant-app.js');
+  } catch (error) {
+    const notice = document.createElement('p');
+    notice.setAttribute('role', 'alert');
+    notice.textContent = 'No se pudo preparar la edición. Recarga para volver a intentarlo.';
+    document.querySelector('main')?.prepend(notice);
+    console.error(error);
+  }
 })();

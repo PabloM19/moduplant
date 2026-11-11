@@ -378,7 +378,15 @@ export function createCatalogue({source, changes = {}, saveChange, mode, hosted 
     $('meta[name="description"]').attr('content', 'Explora el catálogo de plantas y sus cuidados en ModuPlant.');
     $('link[rel~="icon"], link[rel="apple-touch-icon"], head > style, script[src="/directory/website-chrome.js"]').remove();
     $('head').append('<link rel="stylesheet" href="/demo/moduplant.css">');
-    if (hosted) $('head').prepend('<script src="/demo/hosted.js"></script>');
+    if (hosted) {
+      $('head script[src]').each((_, node) => {
+        const script = $(node);
+        script.attr('data-moduplant-script', script.attr('type') === 'module' ? 'module' : 'classic');
+        script.attr('type', 'application/moduplant-script');
+        script.removeAttr('defer');
+      });
+      $('head').prepend('<script src="/demo/hosted.js" defer></script>');
+    }
     $('#moduplant-toolbar').remove();
     $('.website-chrome-header').replaceWith(chrome('.mp-header').toString());
     $('.website-chrome-footer').replaceWith(chrome('.mp-footer').toString());
@@ -390,6 +398,7 @@ export function createCatalogue({source, changes = {}, saveChange, mode, hosted 
         $('<button type="button" data-demo-mode>').attr('data-demo-mode', isAdmin ? 'visitor' : 'admin').text(isAdmin ? 'Ver como visitante' : 'Modo administrador'))
     );
     if (isAdmin) toolbar.attr('data-admin', 'true');
+    if (hosted) toolbar.find('[data-demo-mode]').attr('disabled', '').text('Preparando edición…');
     if (model) {
       const json = JSON.stringify(model).replaceAll('<', '\\u003c');
       $('body').append($('<script type="application/json" id="demo-plant">').text(json));
@@ -404,7 +413,7 @@ export function createCatalogue({source, changes = {}, saveChange, mode, hosted 
     const isAdmin = mode.isAdmin(req);
     const read = req.method === 'GET' || req.method === 'HEAD';
     if (req.method === 'POST' && path === '/demo/modo') {
-      if (req.headers.get('origin') !== url.origin) return respond(403, {error: 'Petición fuera de ModuPlant.'});
+      if ((!hosted && req.headers.get('origin') !== url.origin)) return respond(403, {error: 'Petición fuera de ModuPlant.'});
       try {
         const body = await readBody(req);
         if (!['admin', 'visitor'].includes(body.mode)) return respond(400, {error: 'Modo no válido.'});
@@ -438,7 +447,7 @@ export function createCatalogue({source, changes = {}, saveChange, mode, hosted 
     }
     const edit = path.match(/^\/demo\/editar\/([a-z0-9-]+)$/);
     if (edit && ['PUT', 'DELETE'].includes(req.method)) {
-      if (!isAdmin || req.headers.get('origin') !== url.origin) return respond(403, {error: 'Activa el modo administrador.'});
+      if (!isAdmin || (!hosted && req.headers.get('origin') !== url.origin)) return respond(403, {error: 'Activa el modo administrador.'});
       const plant = bySlug.get(edit[1]);
       if (!plant) return respond(404, {error: 'Ficha no encontrada.'});
       let change = null;

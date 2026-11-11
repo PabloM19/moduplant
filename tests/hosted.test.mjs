@@ -8,25 +8,16 @@ const origin = 'https://moduplant.vercel.app';
 const plants = JSON.parse(readFileSync(new URL('../directory/plants.json', import.meta.url)));
 const plant = plants.find(plant => plant.slug === 'hydrangea-macrophylla');
 
-async function worker(revision) {
-  const listeners = new Map();
+async function browserCatalogue(revision) {
   globalThis.indexedDB = indexedDB;
-  globalThis.self = {
-    location: {origin},
-    addEventListener: (name, listener) => listeners.set(name, listener),
-    skipWaiting: async () => {},
-    clients: {claim: async () => {}},
-  };
-  await import('../dist/moduplant-worker.js?test=' + revision);
-  return async function request(path, method = 'GET', body, requestOrigin = origin) {
-    const request = new Request(origin + path, {
+  const {loadHostedCatalogue} = await import('../dist/moduplant-app.js?test=' + revision);
+  const catalogue = await loadHostedCatalogue();
+  return async function request(path, method = 'GET', body) {
+    return catalogue.route(new Request(origin + path, {
       method,
-      headers: method === 'GET' ? {} : {Origin: requestOrigin, 'Content-Type': 'application/json'},
+      headers: method === 'GET' ? {} : {'Content-Type': 'application/json'},
       ...(body === undefined ? {} : {body: JSON.stringify(body)}),
-    });
-    let response;
-    listeners.get('fetch')({request, respondWith(value) { response = value; }});
-    return response;
+    }));
   };
 }
 
@@ -35,6 +26,8 @@ test('static deployment renders the catalogue and every direct plant URL', () =>
   const $ = load(home);
   assert.equal($('.plant-card').length, 12);
   assert.ok($('.mp-opening').length);
+  assert.ok($('script[src="/demo/hosted.js"]').length);
+  assert.ok($('script[data-moduplant-script][type="application/moduplant-script"]').length > 0);
   assert.ok(!home.includes('Abre el catálogo con el servidor local'));
   for (const plant of plants) {
     const html = readFileSync(new URL('../dist/plantas/' + plant.slug + '.html', import.meta.url), 'utf8');
@@ -45,12 +38,11 @@ test('static deployment renders the catalogue and every direct plant URL', () =>
   }
 });
 
-test('published catalogue keeps edits, photos and mode after the worker restarts', async () => {
-  let request = await worker('initial');
+test('published catalogue keeps edits, photos and mode after reloading the page', async () => {
+  let request = await browserCatalogue('initial');
   const initial = load(await (await request('/plantas/' + plant.slug)).text());
   assert.equal(initial('h1').text(), plant.common_name);
   assert.equal(initial('[data-demo-edit]').length, 0);
-  assert.equal((await request('/demo/modo', 'POST', {mode:'admin'}, 'https://other.example')).status, 403);
   assert.equal((await request('/demo/modo', 'POST', {mode:'admin'})).status, 200);
   const admin = load(await (await request('/plantas/' + plant.slug)).text());
   const model = JSON.parse(admin('#demo-plant').text());
@@ -68,7 +60,7 @@ test('published catalogue keeps edits, photos and mode after the worker restarts
     blocks: [{type:'highlight', title:'Módulo local', text:'Contenido de prueba.'}],
   };
   assert.equal((await request('/demo/editar/' + plant.slug, 'PUT', edits)).status, 200);
-  request = await worker('restart');
+  request = await browserCatalogue('restart');
   const result = load(await (await request('/plantas/' + plant.slug)).text());
   assert.equal(result('h1').text(), 'Hortensia de prueba');
   assert.ok(result('.demo-custom-block').text().includes('Módulo local'));
@@ -81,7 +73,7 @@ test('published catalogue keeps edits, photos and mode after the worker restarts
   assert.equal(selected('.plant-card').length, 2);
 
   await request('/demo/modo', 'POST', {mode:'visitor'});
-  request = await worker('visitor');
+  request = await browserCatalogue('visitor');
   const visitor = load(await (await request('/plantas/' + plant.slug)).text());
   assert.equal(visitor('h1').text(), 'Hortensia de prueba');
   assert.equal(visitor('[data-demo-edit]').length, 0);
@@ -91,5 +83,5 @@ test('published catalogue keeps edits, photos and mode after the worker restarts
   const restored = load(await (await request('/plantas/' + plant.slug)).text());
   assert.equal(restored('h1').text(), plant.common_name);
   assert.equal(restored('.demo-custom-block').length, 0);
-  assert.equal(await request('/directory/identity.css'), undefined);
+  assert.equal(await request('/directory/identity.css'), null);
 });

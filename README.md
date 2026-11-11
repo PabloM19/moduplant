@@ -27,6 +27,6 @@ El modo administrador simula el rol de WordPress. Con `npm run dev`, las persona
 
 La copia de las fichas y las tarjetas está en `directory/`. Los recursos públicos están en `public/directory/`. El prototipo previo de React se conserva en `src/` y sus pruebas en `tests/`.
 
-`npm run build` exporta la portada y las 100 fichas completas a `dist/`, junto con los recursos y un service worker que resuelve búsqueda, filtros y edición en el navegador. `vercel.json` configura el despliegue desde `main` usando ese comando y esa carpeta. Las URLs de las fichas pueden abrirse directamente.
+`npm run build` exporta la portada y las 100 fichas completas a `dist/`, junto con los recursos y la aplicación que resuelve búsqueda, filtros y edición directamente en el navegador. `vercel.json` configura el despliegue desde `main` usando ese comando y esa carpeta. Las URLs de las fichas pueden abrirse directamente.
 
-`npm run test:hosted` verifica la exportación de todas las fichas y la persistencia de textos, fotos, bloques y modo de edición después de reiniciar el worker.
+`npm run test:hosted` verifica la exportación de todas las fichas y la persistencia de textos, fotos, bloques y modo de edición después de volver a cargar la aplicación.
