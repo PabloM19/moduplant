@@ -1,0 +1,1999 @@
+{
+  "_notice": "DATOS SINTETICOS. No son un volcado de la API ni asesoramiento botanico.",
+  "meta": {
+    "contract_version": "1",
+    "dataset": "synthetic-demo",
+    "items": 24,
+    "date": "2026-11-10"
+  },
+  "data": [
+    {
+      "id": "4b3622da-c52d-524a-924b-e245bf30c06a",
+      "record_id": "1d6b4f08-f36b-5d19-a292-376edff9eada",
+      "slug": "monstera-deliciosa",
+      "version": 1,
+      "language": "es",
+      "common_name": "Monstera",
+      "scientific_name": "Monstera deliciosa",
+      "full_name": "Monstera deliciosa",
+      "family": "Araceae",
+      "category": "interior",
+      "exposure": [
+        "luz-filtrada"
+      ],
+      "introduction": "Hojas espectaculares para interiores luminosos.",
+      "description": "Hojas espectaculares para interiores luminosos. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Luz abundante filtrada; evitar sol intenso tras el cristal.",
+        "watering": "Riego moderado; comprobar la capa superficial antes de repetir.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Trepadora",
+        "Uso habitual": "Maceta de interior",
+        "Familia": "Araceae"
+      },
+      "risk_status": "documented_risk",
+      "risk_recipients": [
+        "personas",
+        "gatos",
+        "perros",
+        "caballos"
+      ],
+      "safety": "Precaución: especie con riesgos documentados para determinados destinatarios. Ejemplo de demostración; verificar referencias antes de publicar información real.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "31954478-42a3-55b7-8ec7-03a70f32549f",
+          "position": 1,
+          "url": "/demo-images/monstera-deliciosa.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Monstera; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "4a365b24-4dc7-591b-b8cb-aed63dc7dc1c",
+          "position": 2,
+          "url": "/demo-images/monstera-deliciosa-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Monstera; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "a59fd3a2-9d8b-5632-8caf-a34400333916",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Luz abundante filtrada; evitar sol intenso tras el cristal.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "5b4e0860-772a-5675-b781-8c7b38fdebed",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado; comprobar la capa superficial antes de repetir.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Interior",
+        "environment": "interior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "3bc5e99e-038c-5817-b182-5220603e7a61",
+      "record_id": "4484c5f2-dc5b-5aae-8826-fde879d69721",
+      "slug": "sansevieria-trifasciata",
+      "version": 1,
+      "language": "es",
+      "common_name": "Lengua de suegra",
+      "scientific_name": "Dracaena trifasciata",
+      "full_name": "Dracaena trifasciata",
+      "family": "Asparagaceae",
+      "category": "interior",
+      "exposure": [
+        "luz-filtrada",
+        "semisombra"
+      ],
+      "introduction": "Silueta arquitectónica y mantenimiento sencillo.",
+      "description": "Silueta arquitectónica y mantenimiento sencillo. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Luz indirecta; tolera ambientes menos luminosos.",
+        "watering": "Regar con moderación y dejar secar el sustrato.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Vertical",
+        "Uso habitual": "Interior de bajo mantenimiento",
+        "Familia": "Asparagaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "6e7e89f7-06d0-597a-87fa-1ec5e3acdb7f",
+          "position": 1,
+          "url": "/demo-images/sansevieria-trifasciata.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Lengua de suegra; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "1b6f433e-9025-534f-aeca-6eabf5aef3fb",
+          "position": 2,
+          "url": "/demo-images/sansevieria-trifasciata-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Lengua de suegra; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "21357f93-9437-52da-a22b-06adfaf1a233",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Luz indirecta; tolera ambientes menos luminosos.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "797230bc-51d9-5e9e-a247-4ad4813f312a",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Regar con moderación y dejar secar el sustrato.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Interior",
+        "environment": "interior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "fadc73c6-6d1c-52da-98ea-da65b26369c6",
+      "record_id": "b3df20c5-651f-5e61-94b6-f49c4068c68d",
+      "slug": "ficus-elastica",
+      "version": 1,
+      "language": "es",
+      "common_name": "Ficus elástica",
+      "scientific_name": "Ficus elastica",
+      "full_name": "Ficus elastica",
+      "family": "Moraceae",
+      "category": "interior",
+      "exposure": [
+        "luz-filtrada"
+      ],
+      "introduction": "Follaje amplio y brillante con presencia escultórica.",
+      "description": "Follaje amplio y brillante con presencia escultórica. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Mucha claridad indirecta y ambiente estable.",
+        "watering": "Riego moderado sin encharcar; revisar antes de regar.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbóreo",
+        "Uso habitual": "Interior luminoso",
+        "Familia": "Moraceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "6f553f10-dc5a-529a-92fe-8c2357b6d51c",
+          "position": 1,
+          "url": "/demo-images/ficus-elastica.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Ficus elástica; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "52dd0400-9a4f-5621-976d-b6f97160d6ba",
+          "position": 2,
+          "url": "/demo-images/ficus-elastica-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Ficus elástica; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "9f6fec62-001f-59d9-b798-c713cbe6cf85",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Mucha claridad indirecta y ambiente estable.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "45fd2335-4752-56a0-a75e-cb4779d4f9a0",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado sin encharcar; revisar antes de regar.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "medio",
+        "category_label": "Interior",
+        "environment": "interior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "02585dc9-7dab-5f57-94c1-b9c8e70c3314",
+      "record_id": "515d0325-098e-5a8a-9bc3-8cd5cfca4795",
+      "slug": "chamaedorea-elegans",
+      "version": 1,
+      "language": "es",
+      "common_name": "Chamaedorea",
+      "scientific_name": "Chamaedorea elegans",
+      "full_name": "Chamaedorea elegans",
+      "family": "Arecaceae",
+      "category": "interior",
+      "exposure": [
+        "semisombra",
+        "luz-filtrada"
+      ],
+      "introduction": "Palmera compacta para rincones con luz suave.",
+      "description": "Palmera compacta para rincones con luz suave. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Semisombra luminosa; sin sol directo fuerte.",
+        "watering": "Mantener un riego regular, evitando exceso de agua.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Palmera pequeña",
+        "Uso habitual": "Maceta en interior",
+        "Familia": "Arecaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "5e55b83a-3608-503c-84d7-aaf82fdcdea9",
+          "position": 1,
+          "url": "/demo-images/chamaedorea-elegans.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Chamaedorea; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "2d78ddf9-fa2a-5c1b-8beb-26e1be940068",
+          "position": 2,
+          "url": "/demo-images/chamaedorea-elegans-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Chamaedorea; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "80e6c23c-d071-5e21-ac93-f679b0a1fcf4",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Semisombra luminosa; sin sol directo fuerte.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "28c1e2a6-d620-5cc2-b366-986896cce7aa",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Mantener un riego regular, evitando exceso de agua.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Interior",
+        "environment": "interior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "99cec439-82d1-59e3-8a49-3478af9b1f2b",
+      "record_id": "70afada5-fb0d-55ce-ae0c-ca22f27ae04a",
+      "slug": "lavandula-angustifolia",
+      "version": 1,
+      "language": "es",
+      "common_name": "Lavanda",
+      "scientific_name": "Lavandula angustifolia",
+      "full_name": "Lavandula angustifolia",
+      "family": "Lamiaceae",
+      "category": "aromaticas",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Aroma mediterráneo y floración delicada.",
+      "description": "Aroma mediterráneo y floración delicada. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Ubicación soleada con buena ventilación.",
+        "watering": "Riego espaciado una vez establecida; no encharcar.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Mata aromática",
+        "Uso habitual": "Macizos y macetas",
+        "Familia": "Lamiaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "df9544a5-caab-512e-b9cd-9ddbdee94711",
+          "position": 1,
+          "url": "/demo-images/lavandula-angustifolia.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Lavanda; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "64754f6d-131f-59a5-b4fe-13cf144b7317",
+          "position": 2,
+          "url": "/demo-images/lavandula-angustifolia-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Lavanda; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "863de798-95b6-5fda-b972-783d9a812689",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Ubicación soleada con buena ventilación.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "a9e6ef28-2c41-524f-ab61-c3f092ea40c1",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego espaciado una vez establecida; no encharcar.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Aromáticas",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "70e129f4-95a4-5010-8ab1-327cf87f35d6",
+      "record_id": "a1cc1068-ae7e-53e7-b2b8-697c887ed6bf",
+      "slug": "salvia-rosmarinus",
+      "version": 1,
+      "language": "es",
+      "common_name": "Romero",
+      "scientific_name": "Salvia rosmarinus",
+      "full_name": "Salvia rosmarinus",
+      "family": "Lamiaceae",
+      "category": "aromaticas",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Aromática perenne de carácter mediterráneo.",
+      "description": "Aromática perenne de carácter mediterráneo. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Necesita varias horas de sol directo.",
+        "watering": "Riego bajo en plantas arraigadas y suelo drenado.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbustivo",
+        "Uso habitual": "Aromático y ornamental",
+        "Familia": "Lamiaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "2eb8f442-d157-5daf-8269-1029c5876ca5",
+          "position": 1,
+          "url": "/demo-images/salvia-rosmarinus.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Romero; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "d3c19556-9cbb-51cc-a1c7-3491a73ae92e",
+          "position": 2,
+          "url": "/demo-images/salvia-rosmarinus-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Romero; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "1b63d429-3d68-512f-971d-b14231a7204f",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Necesita varias horas de sol directo.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "282ac795-fb17-5408-a988-054373d622fa",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego bajo en plantas arraigadas y suelo drenado.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Aromáticas",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "882ebbba-8228-532f-a64a-92333850e5be",
+      "record_id": "1027179d-7f46-5eb4-be9d-96d389569e9d",
+      "slug": "thymus-vulgaris",
+      "version": 1,
+      "language": "es",
+      "common_name": "Tomillo",
+      "scientific_name": "Thymus vulgaris",
+      "full_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "category": "aromaticas",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Porte bajo y hojas perfumadas para zonas soleadas.",
+      "description": "Porte bajo y hojas perfumadas para zonas soleadas. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Pleno sol, especialmente en climas mediterráneos.",
+        "watering": "Regar poco y favorecer un sustrato que drene bien.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Mata baja",
+        "Uso habitual": "Jardín seco y aromáticas",
+        "Familia": "Lamiaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "3e14efe5-ee8d-55f8-81ec-2313be7063cc",
+          "position": 1,
+          "url": "/demo-images/thymus-vulgaris.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Tomillo; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "6ca239a7-2489-5d3a-85ec-31a7c280d701",
+          "position": 2,
+          "url": "/demo-images/thymus-vulgaris-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Tomillo; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "f2901d61-d709-570b-b833-a6b394d138dc",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Pleno sol, especialmente en climas mediterráneos.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "b282c9f6-cdcf-5272-b7a7-f0b9d98d0180",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Regar poco y favorecer un sustrato que drene bien.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Aromáticas",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "fd0402dd-dac1-59ca-b36e-4f4986d46c1f",
+      "record_id": "fb25df18-2fe7-5d81-ab67-8b3d8667ecca",
+      "slug": "mentha-spicata",
+      "version": 1,
+      "language": "es",
+      "common_name": "Hierbabuena",
+      "scientific_name": "Mentha spicata",
+      "full_name": "Mentha spicata",
+      "family": "Lamiaceae",
+      "category": "aromaticas",
+      "exposure": [
+        "semisombra"
+      ],
+      "introduction": "Aromática fresca de crecimiento vigoroso.",
+      "description": "Aromática fresca de crecimiento vigoroso. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Buena luz sin calor directo excesivo.",
+        "watering": "Necesita más humedad que otras aromáticas mediterráneas.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Herbáceo",
+        "Uso habitual": "Macetas y rincón de aromáticas",
+        "Familia": "Lamiaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "ef87087b-80eb-521a-af8b-9a9db99ec63b",
+          "position": 1,
+          "url": "/demo-images/mentha-spicata.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Hierbabuena; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        },
+        {
+          "id": "bcedea71-a2d7-5052-9524-dd478daed3c5",
+          "position": 2,
+          "url": "/demo-images/mentha-spicata-detail.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Hierbabuena; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "5b681a8b-30e3-512f-a0b9-9118c5a4dff5",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Buena luz sin calor directo excesivo.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "8daaf8b3-7bbb-516c-ab9a-a93bfa3b5ad9",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Necesita más humedad que otras aromáticas mediterráneas.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "frecuente",
+        "difficulty": "facil",
+        "category_label": "Aromáticas",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "3ce77f27-a11b-531c-8b0c-cbdc0b24fc47",
+      "record_id": "22ca117d-e67d-5ff2-8da1-05d16895fb3e",
+      "slug": "nerium-oleander",
+      "version": 1,
+      "language": "es",
+      "common_name": "Adelfa",
+      "scientific_name": "Nerium oleander",
+      "full_name": "Nerium oleander",
+      "family": "Apocynaceae",
+      "category": "arbustos",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Arbusto mediterráneo florífero para exterior.",
+      "description": "Arbusto mediterráneo florífero para exterior. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol directo y espacio suficiente.",
+        "watering": "Riego de apoyo en etapas iniciales; ajustar después.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbustivo",
+        "Uso habitual": "Setos y macizos",
+        "Familia": "Apocynaceae"
+      },
+      "risk_status": "documented_risk",
+      "risk_recipients": [
+        "personas",
+        "gatos",
+        "perros"
+      ],
+      "safety": "Precaución: especie con riesgos documentados para determinados destinatarios. Ejemplo de demostración; verificar referencias antes de publicar información real.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "bde563a7-edb7-55f7-868c-04253abaf078",
+          "position": 1,
+          "url": "/demo-images/nerium-oleander.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Adelfa; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "aa8098e6-8609-5fea-8aab-c9ea753d5f66",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol directo y espacio suficiente.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "05a6844b-26ee-53a0-a0fd-66141f54e887",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego de apoyo en etapas iniciales; ajustar después.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Arbustos",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "1f04528a-d8e4-5819-8df8-778b344ac9ea",
+      "record_id": "f24a4597-af85-56ea-80b6-7fce401df5a1",
+      "slug": "westringia-fruticosa",
+      "version": 1,
+      "language": "es",
+      "common_name": "Westringia",
+      "scientific_name": "Westringia fruticosa",
+      "full_name": "Westringia fruticosa",
+      "family": "Lamiaceae",
+      "category": "arbustos",
+      "exposure": [
+        "sol",
+        "semisombra"
+      ],
+      "introduction": "Arbusto de hoja fina y porte compacto.",
+      "description": "Arbusto de hoja fina y porte compacto. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Prefiere sol; admite algo de semisombra.",
+        "watering": "Riego moderado al establecerse y espaciado después.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbusto compacto",
+        "Uso habitual": "Jardín mediterráneo",
+        "Familia": "Lamiaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "66e0ce70-4e1c-501e-90eb-974552d19160",
+          "position": 1,
+          "url": "/demo-images/westringia-fruticosa.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Westringia; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "1b4be3af-f549-5644-b49a-5d6c8377800a",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Prefiere sol; admite algo de semisombra.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "36312674-5ed1-5ad8-9bfc-515b6c6a5011",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado al establecerse y espaciado después.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Arbustos",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "573a4c39-813b-55fc-9346-9d18edbf5c4e",
+      "record_id": "e1e75b29-dfce-5642-a2b2-4ddcdd39b4cc",
+      "slug": "pittosporum-tobira",
+      "version": 1,
+      "language": "es",
+      "common_name": "Pitosporo",
+      "scientific_name": "Pittosporum tobira",
+      "full_name": "Pittosporum tobira",
+      "family": "Pittosporaceae",
+      "category": "arbustos",
+      "exposure": [
+        "sol",
+        "semisombra"
+      ],
+      "introduction": "Follaje denso para estructurar exteriores.",
+      "description": "Follaje denso para estructurar exteriores. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol o semisombra según la ubicación.",
+        "watering": "Riego regular durante arraigo; después más espaciado.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbustivo",
+        "Uso habitual": "Pantallas vegetales",
+        "Familia": "Pittosporaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "d11cc9b4-7af4-5788-8060-e856cb99a79f",
+          "position": 1,
+          "url": "/demo-images/pittosporum-tobira.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Pitosporo; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "546f7e20-88af-5c61-bd8e-9966151a7d17",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol o semisombra según la ubicación.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "27fcd50b-46b0-53eb-b5a2-a6baae93dc77",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego regular durante arraigo; después más espaciado.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Arbustos",
+        "environment": "exterior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "75c9b785-3bcf-58ee-8480-32048c42c17c",
+      "record_id": "87e9b4bb-4af1-5444-9c36-b954cd558987",
+      "slug": "viburnum-tinus",
+      "version": 1,
+      "language": "es",
+      "common_name": "Durillo",
+      "scientific_name": "Viburnum tinus",
+      "full_name": "Viburnum tinus",
+      "family": "Adoxaceae",
+      "category": "arbustos",
+      "exposure": [
+        "semisombra",
+        "sol"
+      ],
+      "introduction": "Arbusto persistente de floración invernal.",
+      "description": "Arbusto persistente de floración invernal. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol suave o semisombra.",
+        "watering": "Riego moderado; evitar periodos prolongados de sequedad inicial.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbustivo",
+        "Uso habitual": "Setos y macizos",
+        "Familia": "Adoxaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "1c644f8b-8e05-53a1-bc41-87b303ed27ba",
+          "position": 1,
+          "url": "/demo-images/viburnum-tinus.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Durillo; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "07aec89d-052d-5f4c-affc-aa942749871b",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol suave o semisombra.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "c5164f4e-3fcc-5956-b9ba-f4ced9c94b3d",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado; evitar periodos prolongados de sequedad inicial.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Arbustos",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "1733820e-ab8e-578b-b918-42e9a8ce3e3b",
+      "record_id": "43c9e8a6-216c-5ef9-b1a5-321d7e752498",
+      "slug": "pelargonium-zonale",
+      "version": 1,
+      "language": "es",
+      "common_name": "Geranio",
+      "scientific_name": "Pelargonium × hortorum",
+      "full_name": "Pelargonium × hortorum",
+      "family": "Geraniaceae",
+      "category": "plantas-de-flor",
+      "exposure": [
+        "sol",
+        "semisombra"
+      ],
+      "introduction": "Color abundante en balcones y terrazas.",
+      "description": "Color abundante en balcones y terrazas. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol con protección de horas extremas si el clima lo pide.",
+        "watering": "Regar cuando se seque la capa superior del sustrato.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Herbáceo",
+        "Uso habitual": "Macetas floridas",
+        "Familia": "Geraniaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "2cf26933-0107-5e56-9140-0294e75a51af",
+          "position": 1,
+          "url": "/demo-images/pelargonium-zonale.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Geranio; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "4c43fb9d-e88e-5eae-82e6-e0d2d676a4c8",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol con protección de horas extremas si el clima lo pide.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "0ad839e5-4a54-5000-baa0-4fe0ed3b244d",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Regar cuando se seque la capa superior del sustrato.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Plantas de flor",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "5d3838b4-5385-56f2-bcbe-d042ae1f32a8",
+      "record_id": "4773826e-743b-56a9-86d0-0b17669c0ac6",
+      "slug": "begonia-semperflorens",
+      "version": 1,
+      "language": "es",
+      "common_name": "Begonia",
+      "scientific_name": "Begonia semperflorens",
+      "full_name": "Begonia semperflorens",
+      "family": "Begoniaceae",
+      "category": "plantas-de-flor",
+      "exposure": [
+        "semisombra"
+      ],
+      "introduction": "Flores delicadas para lugares de luz suave.",
+      "description": "Flores delicadas para lugares de luz suave. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Evitar sol fuerte; buena luminosidad filtrada.",
+        "watering": "Mantener humedad regular sin encharcar.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Herbáceo",
+        "Uso habitual": "Jardineras de semisombra",
+        "Familia": "Begoniaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "225dc3a4-a55d-500c-b643-ac07d5f1bc7c",
+          "position": 1,
+          "url": "/demo-images/begonia-semperflorens.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Begonia; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "df2786ce-f14b-5d8a-944e-e0a053ddbe0e",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Evitar sol fuerte; buena luminosidad filtrada.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "3710d851-5077-5cc4-b1e5-fea51be69be6",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Mantener humedad regular sin encharcar.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "frecuente",
+        "difficulty": "medio",
+        "category_label": "Plantas de flor",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "558972ca-8976-5eb5-8923-a5161d4a6234",
+      "record_id": "e4eb0f00-5a27-53a2-bddc-065d2cc3822a",
+      "slug": "cyclamen-persicum",
+      "version": 1,
+      "language": "es",
+      "common_name": "Ciclamen",
+      "scientific_name": "Cyclamen persicum",
+      "full_name": "Cyclamen persicum",
+      "family": "Primulaceae",
+      "category": "plantas-de-flor",
+      "exposure": [
+        "semisombra"
+      ],
+      "introduction": "Flor de temporada fría con hojas decorativas.",
+      "description": "Flor de temporada fría con hojas decorativas. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Luz abundante suave y temperaturas templadas.",
+        "watering": "Aportar agua con cuidado, evitando mojar la corona.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Bulboso",
+        "Uso habitual": "Macetas de temporada",
+        "Familia": "Primulaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "7978ba8b-2390-573e-99f0-c492476a116e",
+          "position": 1,
+          "url": "/demo-images/cyclamen-persicum.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Ciclamen; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "e8bb9b79-146a-5d8e-aea6-e71a1c88a306",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Luz abundante suave y temperaturas templadas.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "9368d1e7-a926-5ad8-be03-8695e8b0cea1",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Aportar agua con cuidado, evitando mojar la corona.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "medio",
+        "category_label": "Plantas de flor",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "172e903a-87d3-5965-b6df-52591e164fd0",
+      "record_id": "d138f6fd-733a-57f0-b0e3-07ef932466ad",
+      "slug": "agapanthus-africanus",
+      "version": 1,
+      "language": "es",
+      "common_name": "Agapanto",
+      "scientific_name": "Agapanthus africanus",
+      "full_name": "Agapanthus africanus",
+      "family": "Amaryllidaceae",
+      "category": "plantas-de-flor",
+      "exposure": [
+        "sol",
+        "semisombra"
+      ],
+      "introduction": "Inflorescencias elevadas que destacan en macizos.",
+      "description": "Inflorescencias elevadas que destacan en macizos. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol o semisombra luminosa.",
+        "watering": "Riego moderado en crecimiento, con sustrato drenante.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Herbáceo perenne",
+        "Uso habitual": "Borduras y macetas grandes",
+        "Familia": "Amaryllidaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "53451ca1-5df0-5a61-8c51-0ea4e33a0cab",
+          "position": 1,
+          "url": "/demo-images/agapanthus-africanus.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Agapanto; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "aa368668-8197-5a87-9d9d-796fd85950fa",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol o semisombra luminosa.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "e0ec6620-36c4-5bfb-aa6a-0ea0d2738994",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado en crecimiento, con sustrato drenante.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Plantas de flor",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "cf334b8a-0000-5144-803f-88f0d02e4a59",
+      "record_id": "a3cacb9d-45a3-5916-a93a-0b9f2f3372f5",
+      "slug": "aloe-vera",
+      "version": 1,
+      "language": "es",
+      "common_name": "Aloe vera",
+      "scientific_name": "Aloe vera",
+      "full_name": "Aloe vera",
+      "family": "Asphodelaceae",
+      "category": "suculentas",
+      "exposure": [
+        "sol",
+        "luz-filtrada"
+      ],
+      "introduction": "Suculenta de roseta con hojas carnosas.",
+      "description": "Suculenta de roseta con hojas carnosas. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Mucha luz, acostumbrando gradualmente al sol.",
+        "watering": "Dejar secar el sustrato entre riegos.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Roseta",
+        "Uso habitual": "Maceta",
+        "Familia": "Asphodelaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "83be0d21-e1bb-5931-8f9a-443834b9de10",
+          "position": 1,
+          "url": "/demo-images/aloe-vera.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Aloe vera; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "4d29257c-0f13-5d33-a594-a656700a2834",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Mucha luz, acostumbrando gradualmente al sol.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "32b471be-90b6-5c72-b471-6be84385286d",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Dejar secar el sustrato entre riegos.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Cactus y suculentas",
+        "environment": "exterior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "2963963b-d59b-50a4-87c1-83ade239fd55",
+      "record_id": "d1668ad8-e9f0-5e9d-8829-ed93c75ad961",
+      "slug": "crassula-ovata",
+      "version": 1,
+      "language": "es",
+      "common_name": "Árbol de jade",
+      "scientific_name": "Crassula ovata",
+      "full_name": "Crassula ovata",
+      "family": "Crassulaceae",
+      "category": "suculentas",
+      "exposure": [
+        "sol",
+        "luz-filtrada"
+      ],
+      "introduction": "Tallos carnosos y hojas redondeadas.",
+      "description": "Tallos carnosos y hojas redondeadas. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Luminosidad alta; sol suave si está adaptada.",
+        "watering": "Riego espaciado y drenaje cuidadoso.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Arbustivo suculento",
+        "Uso habitual": "Maceta decorativa",
+        "Familia": "Crassulaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "8567bba7-16dd-5c65-9361-382aada82c5d",
+          "position": 1,
+          "url": "/demo-images/crassula-ovata.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Árbol de jade; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "2812ac11-066b-5bba-9386-ec5d76f82f88",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Luminosidad alta; sol suave si está adaptada.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "772086ce-d001-5323-a5f5-8f95702845a7",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego espaciado y drenaje cuidadoso.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Cactus y suculentas",
+        "environment": "exterior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "12cf0514-0013-592b-bc44-5d90637b5de3",
+      "record_id": "397f05f5-5b9f-50a3-862f-06777953c790",
+      "slug": "echeveria-elegans",
+      "version": 1,
+      "language": "es",
+      "common_name": "Echeveria",
+      "scientific_name": "Echeveria elegans",
+      "full_name": "Echeveria elegans",
+      "family": "Crassulaceae",
+      "category": "suculentas",
+      "exposure": [
+        "sol",
+        "luz-filtrada"
+      ],
+      "introduction": "Roseta simétrica de tonos suaves.",
+      "description": "Roseta simétrica de tonos suaves. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Mucha luz; evitar cambios bruscos de exposición.",
+        "watering": "Regar poco y mantener el centro de la roseta seco.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Roseta",
+        "Uso habitual": "Composiciones suculentas",
+        "Familia": "Crassulaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "a21bf6f1-1e5a-5a0e-863d-0f75488b4e76",
+          "position": 1,
+          "url": "/demo-images/echeveria-elegans.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Echeveria; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "6ad40d96-2473-5138-9804-e91d6eb906c1",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Mucha luz; evitar cambios bruscos de exposición.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "b73353e3-9090-59ce-b69d-83524620bead",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Regar poco y mantener el centro de la roseta seco.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Cactus y suculentas",
+        "environment": "exterior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "08f556b5-cf45-5eed-8651-b738fbfb844e",
+      "record_id": "605e6e07-dd87-5cf2-8235-be35b1a92d3e",
+      "slug": "sedum-spectabile",
+      "version": 1,
+      "language": "es",
+      "common_name": "Sedum",
+      "scientific_name": "Hylotelephium spectabile",
+      "full_name": "Hylotelephium spectabile",
+      "family": "Crassulaceae",
+      "category": "suculentas",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Perenne carnosa con floración en grupos.",
+      "description": "Perenne carnosa con floración en grupos. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Pleno sol para buen desarrollo.",
+        "watering": "Riego limitado cuando la planta está arraigada.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Herbáceo suculento",
+        "Uso habitual": "Macizos de bajo riego",
+        "Familia": "Crassulaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "fcd7fea4-b7f2-5836-bf7a-242da0e51a69",
+          "position": 1,
+          "url": "/demo-images/sedum-spectabile.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Sedum; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "5100a041-8a3f-5b6c-8b77-d0d66cc8c20c",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Pleno sol para buen desarrollo.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "8a13acb2-a464-5b5b-997d-9870a44bce9f",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego limitado cuando la planta está arraigada.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "facil",
+        "category_label": "Cactus y suculentas",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "3b87f08b-fd86-5b4b-a380-899c897ad3f1",
+      "record_id": "0e41384b-d83b-5122-9c28-c8eab887f2ab",
+      "slug": "olea-europaea",
+      "version": 1,
+      "language": "es",
+      "common_name": "Olivo",
+      "scientific_name": "Olea europaea",
+      "full_name": "Olea europaea",
+      "family": "Oleaceae",
+      "category": "arboles-y-trepadoras",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Árbol mediterráneo de silueta icónica.",
+      "description": "Árbol mediterráneo de silueta icónica. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Pleno sol y espacio de desarrollo.",
+        "watering": "Riego de implantación; después ajustar a suelo y clima.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Árbol",
+        "Uso habitual": "Jardín mediterráneo",
+        "Familia": "Oleaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "cde95fb3-c647-5eb2-81d8-ac015c494805",
+          "position": 1,
+          "url": "/demo-images/olea-europaea.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Olivo; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "856de44c-77ff-5114-9aa7-adb8c573d7a8",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Pleno sol y espacio de desarrollo.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "f83368a9-54f2-5f4e-9169-590c781db405",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego de implantación; después ajustar a suelo y clima.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "medio",
+        "category_label": "Árboles y trepadoras",
+        "environment": "exterior",
+        "has_flowers": false
+      },
+      "demo_only": true
+    },
+    {
+      "id": "c8de0904-d7db-5171-a275-348fc452071b",
+      "record_id": "4e494123-bcfb-5a54-98cb-7dd2d38f6c5d",
+      "slug": "citrus-limon",
+      "version": 1,
+      "language": "es",
+      "common_name": "Limonero",
+      "scientific_name": "Citrus × limon",
+      "full_name": "Citrus × limon",
+      "family": "Rutaceae",
+      "category": "arboles-y-trepadoras",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Cítrico ornamental con flor y fruto.",
+      "description": "Cítrico ornamental con flor y fruto. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol y protección frente a frío intenso.",
+        "watering": "Riego regular sin encharcar, adaptado a estación.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Árbol frutal",
+        "Uso habitual": "Patios y jardines",
+        "Familia": "Rutaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "3f2c6c63-7d9b-58c7-8557-94a75fed7a06",
+          "position": 1,
+          "url": "/demo-images/citrus-limon.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Limonero; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "c4673397-c2c3-5866-bdb2-af527b59051e",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol y protección frente a frío intenso.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "c681fc26-b743-5d6f-9c8c-ddd005e1aacf",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego regular sin encharcar, adaptado a estación.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "medio",
+        "category_label": "Árboles y trepadoras",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "ef3e9115-adb0-5cd8-99e1-4ecaa3963ff3",
+      "record_id": "be551c9a-b426-5c0b-87e5-bb1cbecdf95b",
+      "slug": "bougainvillea-glabra",
+      "version": 1,
+      "language": "es",
+      "common_name": "Buganvilla",
+      "scientific_name": "Bougainvillea glabra",
+      "full_name": "Bougainvillea glabra",
+      "family": "Nyctaginaceae",
+      "category": "arboles-y-trepadoras",
+      "exposure": [
+        "sol"
+      ],
+      "introduction": "Trepadora de brácteas coloridas para lugares soleados.",
+      "description": "Trepadora de brácteas coloridas para lugares soleados. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Mucho sol y abrigo frente al frío fuerte.",
+        "watering": "Riego moderado en establecimiento y más espaciado luego.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Trepador",
+        "Uso habitual": "Pérgolas y fachadas",
+        "Familia": "Nyctaginaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "bea87602-ffa2-5f3a-9ec6-b4eeb5e6f607",
+          "position": 1,
+          "url": "/demo-images/bougainvillea-glabra.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Buganvilla; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "96ee8597-f21e-5952-a5ad-26c0e072fc79",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Mucho sol y abrigo frente al frío fuerte.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "c6ed41c9-4131-5ffd-98bd-fcb84a116ef3",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado en establecimiento y más espaciado luego.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "bajo",
+        "difficulty": "medio",
+        "category_label": "Árboles y trepadoras",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    },
+    {
+      "id": "290a0b62-fea5-5c76-8742-f557d1fc766c",
+      "record_id": "cf35a7e5-6863-52a4-9e97-a95be49031da",
+      "slug": "trachelospermum-jasminoides",
+      "version": 1,
+      "language": "es",
+      "common_name": "Jazmín estrella",
+      "scientific_name": "Trachelospermum jasminoides",
+      "full_name": "Trachelospermum jasminoides",
+      "family": "Apocynaceae",
+      "category": "arboles-y-trepadoras",
+      "exposure": [
+        "sol",
+        "semisombra"
+      ],
+      "introduction": "Trepadora de hoja perenne y flores perfumadas.",
+      "description": "Trepadora de hoja perenne y flores perfumadas. Esta ficha contiene información ilustrativa para una demostración comercial de ModuPlant; las condiciones de cultivo deben revisarse para cada ubicación.",
+      "care": {
+        "light": "Sol suave o semisombra luminosa.",
+        "watering": "Riego moderado, más frecuente mientras enraíza.",
+        "substrate": "Sustrato adaptado a la especie, con drenaje suficiente.",
+        "maintenance": "Revisar hojas, crecimiento y necesidades estacionales.",
+        "environment": "Ubicación adaptada a exposición y clima local."
+      },
+      "traits": {
+        "Porte": "Trepador",
+        "Uso habitual": "Pérgolas y cerramientos",
+        "Familia": "Apocynaceae"
+      },
+      "risk_status": "unknown",
+      "risk_recipients": null,
+      "safety": "La ausencia de riesgo documentado en esta ficha de demostración no equivale a garantía de seguridad.",
+      "cultivation_context": "Ficha ilustrativa de garden center",
+      "synonyms": [],
+      "identity": {
+        "estado_identidad": "demo-synthetic",
+        "notas": "UUID sintético no ligado a la base real"
+      },
+      "images": [
+        {
+          "id": "7afac29a-06a1-51f6-af8a-9dbbbdf07d1b",
+          "position": 1,
+          "url": "/demo-images/trachelospermum-jasminoides.svg",
+          "metadata": {
+            "alt_original": "Ilustración decorativa de Jazmín estrella; no es fotografía botánica verificada"
+          },
+          "variant": "demo-svg"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "00dee6d7-b6f5-5ec7-a325-fcd2570ad9dc",
+          "position": 1,
+          "topic": "cuidados",
+          "question": "¿Dónde conviene ubicarla?",
+          "answer": "Sol suave o semisombra luminosa.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        },
+        {
+          "id": "cb79f175-06fb-5240-8c33-be3170215cde",
+          "position": 2,
+          "topic": "cuidados",
+          "question": "¿Qué debo revisar antes de regar?",
+          "answer": "Riego moderado, más frecuente mientras enraíza.",
+          "evidence_status": "unknown",
+          "evidence_label": "Ejemplo de demostración"
+        }
+      ],
+      "sources": [],
+      "evidence": [],
+      "demo_facets": {
+        "watering_level": "moderado",
+        "difficulty": "facil",
+        "category_label": "Árboles y trepadoras",
+        "environment": "exterior",
+        "has_flowers": true
+      },
+      "demo_only": true
+    }
+  ]
+}

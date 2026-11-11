@@ -1,0 +1,10 @@
+/* Only the Shadow DOM boundary needs adapting; design rules come from the live theme. */
+:host { display: block; font: 17px/1.6 var(--body); color: var(--ink); -webkit-font-smoothing: antialiased; }
+.marketing-site { font: inherit; color: inherit; overflow-wrap: break-word; }
+.site-header { position: relative; top: auto; }
+.mobile-nav { max-height: calc(100dvh - var(--website-menu-top, 102px)); overflow-y: auto; top: var(--website-menu-top, 102px); overscroll-behavior: contain; }
+dialog { font: inherit; color: var(--ink); }
+dialog .modal-shell > p { margin-block: 20px; }
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+}

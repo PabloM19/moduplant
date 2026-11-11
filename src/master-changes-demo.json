@@ -1,0 +1,49 @@
+{
+  "scenario_id": "demo-changes-001",
+  "description": "Eventos separados de las fichas; el GET /changes real no contiene el contenido actualizado. El mock usa updated_master_plants para representar el GET /plants/{uuid} posterior.",
+  "events": [
+    {
+      "id": "4e00404b-b896-5ee1-bad8-fa5f938c63b7",
+      "sequence": "101",
+      "type": "plant.published",
+      "taxon_id": "4b3622da-c52d-524a-924b-e245bf30c06a",
+      "version": 2,
+      "occurred_at": "2026-11-10T20:00:00+01:00",
+      "invalidated_image_ids": []
+    },
+    {
+      "id": "ffba3fae-35b2-5953-95a9-31755669988d",
+      "sequence": "102",
+      "type": "plant.published",
+      "taxon_id": "99cec439-82d1-59e3-8a49-3478af9b1f2b",
+      "version": 2,
+      "occurred_at": "2026-11-10T20:00:01+01:00",
+      "invalidated_image_ids": []
+    }
+  ],
+  "updated_master_plants": [
+    {
+      "taxon_id": "4b3622da-c52d-524a-924b-e245bf30c06a",
+      "version": 2,
+      "patch": {
+        "care.light": "Luz muy abundante, siempre tamizada; alejar de radiación intensa directa.",
+        "care.watering": "Comprobar humedad a varios centímetros de profundidad y ajustar la frecuencia según la estación.",
+        "introduction": "Monstera de hojas grandes y crecimiento trepador para estancias luminosas."
+      }
+    },
+    {
+      "taxon_id": "99cec439-82d1-59e3-8a49-3478af9b1f2b",
+      "version": 2,
+      "patch": {
+        "care.watering": "En tierra y bien arraigada suele necesitar riego espaciado; aumentar vigilancia durante implantación.",
+        "description": "Lavanda de aroma mediterráneo. Se propone para espacios soleados y suelos con buen drenaje. Texto actualizado para la simulación."
+      }
+    }
+  ],
+  "meta": {
+    "contract_version": "1",
+    "has_more": false,
+    "next_cursor": "mock-changes-cursor-102",
+    "high_watermark": "102"
+  }
+}

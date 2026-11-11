@@ -1,0 +1,54 @@
+{
+  "demo": true,
+  "selected_initial_garden_id": "garden-turia",
+  "gardens": [
+    {
+      "id": "garden-turia",
+      "name": "Garden del Turia",
+      "city": "Valencia",
+      "contactEmail": "hola@garden-demo.invalid",
+      "contactPhone": "000 000 000",
+      "address": "Dirección ficticia · Valencia",
+      "themePreset": "natural",
+      "theme": {
+        "primary": "#326D50",
+        "accent": "#A8C97D",
+        "page": "#FAF8F1",
+        "card": "#FFFFFF",
+        "text": "#20332A",
+        "radius": 22,
+        "shadow": true,
+        "font": "Outfit",
+        "gridColumnsDesktop": 3,
+        "cardRatio": "4:3",
+        "showScientificName": true,
+        "showCareFacts": true,
+        "showSafetySection": true
+      }
+    },
+    {
+      "id": "garden-norte",
+      "name": "Garden del Norte",
+      "city": "Ciudad ficticia",
+      "contactEmail": "contacto@garden-norte-demo.invalid",
+      "contactPhone": "000 000 001",
+      "address": "Dirección ficticia · Norte",
+      "themePreset": "editorial",
+      "theme": {
+        "primary": "#284856",
+        "accent": "#C98B65",
+        "page": "#F5F6F4",
+        "card": "#FFFFFF",
+        "text": "#24343C",
+        "radius": 10,
+        "shadow": false,
+        "font": "system",
+        "gridColumnsDesktop": 3,
+        "cardRatio": "4:3",
+        "showScientificName": true,
+        "showCareFacts": true,
+        "showSafetySection": true
+      }
+    }
+  ]
+}

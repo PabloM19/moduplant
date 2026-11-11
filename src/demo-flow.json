@@ -1,0 +1,73 @@
+{
+  "demo_only": true,
+  "initial": {
+    "gardenId": "garden-turia",
+    "role": "visitor",
+    "plantCount": 0
+  },
+  "steps": [
+    {
+      "id": "welcome",
+      "label": "Tu catálogo comienza vacío",
+      "route": "/catalogo",
+      "action": "visit"
+    },
+    {
+      "id": "login",
+      "label": "Entra como administrador de prueba",
+      "route": "/acceso",
+      "action": "switch-role-admin"
+    },
+    {
+      "id": "import",
+      "label": "Conecta e importa desde Green Digital",
+      "route": "/admin/biblioteca",
+      "action": "import-master",
+      "expected": "24 borradores, 0 publicados"
+    },
+    {
+      "id": "publish",
+      "label": "Publica ocho plantas",
+      "route": "/admin/plantas",
+      "action": "publish-featured",
+      "expected": "8 publicadas y activas"
+    },
+    {
+      "id": "browse",
+      "label": "Explora la experiencia del visitante",
+      "route": "/catalogo",
+      "action": "switch-role-visitor"
+    },
+    {
+      "id": "customize",
+      "label": "Personaliza la ficha Monstera",
+      "route": "/admin/plantas",
+      "action": "override-watering",
+      "targetSlug": "monstera-deliciosa"
+    },
+    {
+      "id": "theme",
+      "label": "Adapta el diseño al garden",
+      "route": "/admin/diseno",
+      "action": "edit-theme"
+    },
+    {
+      "id": "sync",
+      "label": "Comprueba que la sincronización respeta tu texto",
+      "route": "/admin/biblioteca",
+      "action": "apply-demo-changes"
+    },
+    {
+      "id": "second-garden",
+      "label": "Mismo motor, otro catálogo",
+      "route": "/admin",
+      "action": "switch-garden-norte"
+    },
+    {
+      "id": "reset",
+      "label": "Reinicia la demostración para repetirla",
+      "route": "/admin",
+      "action": "reset-demo"
+    }
+  ]
+}
